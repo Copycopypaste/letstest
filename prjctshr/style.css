@@ -1,0 +1,28 @@
+body{
+  margin:0;
+  background:white;
+  font-family: comfortaa;
+}
+
+header, h1{
+    margin:0;
+    background:white;
+}
+
+p{
+    margin:0;
+    background:white;
+    color:#6269;
+    padding:10px 0px 10px 0px;
+}
+
+a{
+    color:blue;
+}
+
+.fixlater{
+  margin:0;
+  background:red;
+  color:white;
+  padding:10px 0px 10px 0px;
+}
