@@ -39,6 +39,7 @@ width: 60%;
 height: 20%;
 position: relative;
 background-image: url(table1.png);
+border: solid 5% black;
 
 }
 
