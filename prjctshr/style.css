@@ -33,13 +33,25 @@ a{
   padding:10px 0px 10px 0px;
 }
 
+.img_container{
+  margin:0 auto;
+  width: 30%;
+  height: 30%;
+  position: relative;
+  background: white;
+  border: solid 10px #2c2c2c;
+
+}
+
+
+
 .img_rnd{
 margin:0 auto;
 width: 60%;
 height: 20%;
 position: relative;
 background-image: url(table1.png);
-border: solid 5% black;
+border: solid 10px #2c2c2c;
 
 }
 
@@ -64,5 +76,6 @@ width: 60%;
 height: 20%;
 padding-bottom: 0;
 background-color: blue;
+
 
 }
