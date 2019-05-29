@@ -3,7 +3,7 @@ html, body{
   height:100%;
   margin:0;
   background:white;
-  font-family: comfortaa;
+  font-family: Comic Sans MS;
 }
 
 
@@ -73,13 +73,51 @@ display: none;
 }
 
 .PREV{
-  left:0
+  left:0;
 
 }
 
 .NEXT{
-  right: 0
+  right:0;
 }
+
+.status{
+position: absolute;
+width: 100%;
+height: 10%;
+bottom: 5%;
+text-align: center;
+z-index: 99;
+
+}
+
+.squares{
+position: relative;
+top: -10%;
+width: 5%;
+height: 100%;
+margin: 0 0;
+border-radius: 10%;
+display: inline-block;
+background: rgba(255,0,0,.6)
+
+}
+
+
+.img_slide{
+z-index: -1;
+
+}
+
+#i1:checked ~ #a, #i2:checked ~ #b, #i3:checked ~ #c{
+z-index: 9;
+}
+
+#i1:checked ~ .status #square1, #i2:checked ~ .status #square2, #i3:checked ~ .status #square3{
+background: #fff;
+}
+
+
 
 .img_rnd{
 margin:0 auto;
